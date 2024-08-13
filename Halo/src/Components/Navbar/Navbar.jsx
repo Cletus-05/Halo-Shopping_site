@@ -5,8 +5,8 @@ import cart_icon from '../Assests/cart_icon.png'
 
 const Navbar = () => {
   return (
-    <div className='navbar fixed-top'>
-      <div className="nav-logo fixed-top">
+    <div className='navbar '>
+      <div className="nav-logo ">
       <img src={logo} alt=""/>
       <p>SHOPPER</p>
       </div>
@@ -16,7 +16,7 @@ const Navbar = () => {
         <li>Women</li>
         <li>Kids</li>
       </ul>
-      <div className="nav-login-cart fixed-top">
+      <div className="nav-login-cart">
         <button>Login</button>
         <img src={cart_icon} alt="" />
       </div>
